@@ -4,10 +4,9 @@
 
 > math_magicians is a website for all fans of mathematics. It is a Single Page App (SPA) that allows users to: Make simple calculations and read a random math-related quote.
 
-## Built With
+## Tools & Technologies
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-Morover, it uses the following technologies:
+- React.
 - Eslint.
 - Stylelint.
 
