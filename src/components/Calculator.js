@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+// eslint-disable-next-line import/extensions
 import calculate from '../logic/calculate';
 import './Calculator.css';
 
