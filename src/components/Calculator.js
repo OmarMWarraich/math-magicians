@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import calculate from '../logic/calculate.js';
+import calculate from '../logic/calculate';
 import './Calculator.css';
 
 // eslint-disable-next-line react/prefer-stateless-function
