@@ -1,39 +1,61 @@
-.App {
+
+.quote {
+  font-size: 2.5rem;
+  margin-top: 3rem;
+  padding: 0.2rem;
+  text-align: center;
+  background-color: rgb(64, 64, 72);
+  border-radius: 50px;
+}
+
+.quote p {
+  margin: 8rem;
+  padding: 0;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.welcome {
+  padding: 20px;
+  border-radius: 50px;
+  margin: 2rem;
+  background-color: rgb(64, 64, 72);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.welcome h1 {
+  font-size: 3rem;
+  font-weight: 700;
+  margin-top: 5rem;
+  padding: 0;
+  text-align: center;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.welcome p {
+  margin: 4rem;
+  font-size: 2rem;
+  padding: 0;
+  text-align: center;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+@media screen and (max-width: 768px) {
+  .quote {
+    font-size: 1.2rem;
+    margin-top: 5rem;
   }
 
-  to {
-    transform: rotate(360deg);
+  .quote p {
+    margin: 2rem;
+  }
+
+  .welcome {
+    padding: 10px;
+  }
+
+  .welcome h1 {
+    font-size: 2rem;
+  }
+
+  .welcome p {
+    margin: 2rem;
+    font-size: 1rem;
   }
 }
