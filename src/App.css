@@ -1,20 +1,24 @@
+
 .quote {
-  font-size: 1.5rem;
-  margin: 0;
-  padding: 0;
+  font-size: 2.5rem;
+  margin-top: 3rem;
+  padding: 0.2rem;
   text-align: center;
+  background-color: rgb(64, 64, 72);
+  border-radius: 50px;
 }
 
 .quote p {
-  margin: 4rem;
+  margin: 8rem;
   padding: 0;
   text-align: center;
 }
 
 .welcome {
   padding: 20px;
-  border-radius: 5px;
-  margin-bottom: 20px;
+  border-radius: 50px;
+  margin: 2rem;
+  background-color: rgb(64, 64, 72);
 }
 
 .welcome h1 {
@@ -33,15 +37,17 @@
 }
 
 @media screen and (max-width: 768px) {
-
   .quote {
-    font-size: 1rem;
-    margin: auto;
+    font-size: 1.2rem;
+    margin-top: 5rem;
+  }
 
+  .quote p {
+    margin: 2rem;
   }
 
   .welcome {
-    margin: auto;
+    padding: 10px;
   }
 
   .welcome h1 {
@@ -52,6 +58,4 @@
     margin: 2rem;
     font-size: 1rem;
   }
-
 }
-  

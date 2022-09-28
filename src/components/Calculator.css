@@ -51,6 +51,8 @@
 
 .operator-keys * {
   height: 3rem;
+  background-color: orange;
+  border-color: #fff;
 }
 
 .key-clear,
@@ -102,11 +104,6 @@
   width: 25%;
 }
 
-.operator-keys * {
-  background-color: orange;
-  border-color: #fff;
-}
-
 @media screen and (max-width: 768px) {
   .title {
     font-size: 0.6rem;
@@ -117,9 +114,8 @@
     margin-right: 2rem;
   }
 
-  .calculator-keypad *, .operator-keys * {
+  .calculator-keypad *,
+  .operator-keys * {
     height: 1.8rem;
   }
-
 }
-  
