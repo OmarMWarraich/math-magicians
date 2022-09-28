@@ -52,3 +52,20 @@ test('number button', () => {
     operation: '+',
   });
 });
+
+// test for . button
+
+test('dot button', () => {
+  const obj = {
+    total: '5',
+    next: '5',
+    operation: '+',
+  };
+  const buttonName = '.';
+  const result = calculate(obj, buttonName);
+  expect(result).toEqual({
+    total: '5',
+    next: '5.',
+    operation: '+',
+  });
+});
