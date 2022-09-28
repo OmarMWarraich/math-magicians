@@ -1,6 +1,6 @@
 // write unit tests for calculate.js
 
-import calculate from '../logic/calculate';
+import calculate from '../calculate';
 
 // test for AC button
 

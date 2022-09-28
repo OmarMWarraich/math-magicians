@@ -1,4 +1,4 @@
-import operate from '../logic/operate';
+import operate from '../operate';
 
 describe('operate', () => {
   it('should return 5 when 2 and 3 are passed', () => {
