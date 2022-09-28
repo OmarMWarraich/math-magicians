@@ -22,3 +22,23 @@
 .navbar li {
     margin: 0 1.5rem;
 }
+
+@media screen and (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: auto;
+    }
+
+    .navbar ul {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .navbar li {
+        margin: 1rem 0;
+    }
+}
+    

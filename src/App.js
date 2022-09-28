@@ -4,6 +4,7 @@ import Calculator from './components/Calculator';
 import Navbar from './components/Navbar';
 import Quotes from './pages/Quotes';
 import Welcome from './pages/Welcome';
+import './App.css';
 
 const App = () => (
   <>
