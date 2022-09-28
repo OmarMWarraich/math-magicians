@@ -1,13 +1,13 @@
 import React from 'react';
 import { BrowserRouter } from 'react-router-dom';
 import { render } from '@testing-library/react';
-import App from './App';
+import Welcome from './Welcome';
 
-describe('test App component', () => {
-  test('renders App component', () => {
+describe('test Welcome component', () => {
+  test('renders Welcome component', () => {
     const component = render(
       <BrowserRouter>
-        <App />
+        <Welcome />
       </BrowserRouter>,
     );
     expect(component).toMatchSnapshot();

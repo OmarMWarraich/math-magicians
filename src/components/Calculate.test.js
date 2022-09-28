@@ -1,13 +1,13 @@
 import React from 'react';
 import { BrowserRouter } from 'react-router-dom';
 import { render } from '@testing-library/react';
-import App from './App';
+import Calculator from './Calculator';
 
-describe('test App component', () => {
-  test('renders App component', () => {
+describe('test Calculator component', () => {
+  test('renders Calculator component', () => {
     const component = render(
       <BrowserRouter>
-        <App />
+        <Calculator />
       </BrowserRouter>,
     );
     expect(component).toMatchSnapshot();
