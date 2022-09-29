@@ -12,7 +12,7 @@
 
 ## Live Demo 
 
-Coming Soon
+[Click me!](https://math-magicians-ova.netlify.app/)
 
 ## Getting Started
 
